@@ -18,7 +18,7 @@ class PrintQueueVisualiser:
     def __init__(self, root, print_queue):
         self.print_queue = print_queue
         self.root = root
-        self.root.title("📠 Print Queue Visualizer")
+        self.root.title("Print Queue Visualizer")
         self.root.geometry("600x350")
         self.root.resizable(False, False)
 
@@ -59,7 +59,7 @@ class PrintQueueVisualiser:
 
     def run_simulation(self):
         # Full simulation logic from main.py, condensed here
-        print("\n=== Running Queue Simulation ===")
+        print("\n --- Running Queue Simulation ---")
         self.print_queue = PrintQueue(5)
         initialize_queue_for_aging(self.print_queue, aging_interval=5, aging_increment=1)
 

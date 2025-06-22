@@ -1,7 +1,7 @@
 # QUEUE-Assignment – Printing Queue Simulation
 
 ## Group Name
-Maria and her Minions
+Maria and her Minions 
 
 ## Group Members
 
